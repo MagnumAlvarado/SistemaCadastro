@@ -8,7 +8,7 @@ import { ButtonContainer, Container, Description, Title } from './styles';
 export default function Home() {
   return (
     <Container>
-      <Title>Gestão de Cadastros</Title>
+      <Title>Sistema Cadastros</Title>
       <Description>Sistema para gestão de cadastros. Clique em Clientes para adicionar clientes na base de dados ou acione o botão de para adicionar produtos na base de dados.</Description>
       <ButtonContainer>
         <NavLink to='/clientes'><Button backColor='#117BB0'>Clientes</Button></NavLink>

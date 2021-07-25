@@ -66,7 +66,7 @@ export default function Products() {
 
   return (
     <Container>
-      <Title>Gestão de Produtos</Title>
+      <Title>Sistema Produtos</Title>
       <Description>Seção para adição de produtos no LocalStorage.</Description>
       {status && <Success>Produto cadastrado com sucesso</Success>}
       <Form onSubmit={setDataToStorage}>

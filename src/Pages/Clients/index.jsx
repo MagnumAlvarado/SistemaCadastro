@@ -93,7 +93,7 @@ export default function Clients() {
           <Input
             type="email"
             id="email"
-            placeholder="contato@vtex.com"
+            placeholder="contato@gameacademy.com"
             value={clientData.email}
             onChange={handleChange}
           />

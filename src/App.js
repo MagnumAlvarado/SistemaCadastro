@@ -2,7 +2,7 @@ import routes from "./routes";
 
 function App() {
   return (
-    <Routes />
+    <Routes/>
   );
 }
 

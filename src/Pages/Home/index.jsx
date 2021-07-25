@@ -18,4 +18,3 @@ export default function Home() {
     </Container>
   )
 }
-© 2021 GitHub, Inc.

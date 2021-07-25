@@ -63,8 +63,8 @@ export default function Clients() {
   console.log(clientData);
   return (
     <Container>
-      <Title>Gestão de Clientes</Title>
-      <Description>Secção para adição de clientes no LocalStorage.</Description>
+      <Title>Sistema Cadastro</Title>
+      <Description>Seção para adição de clientes no LocalStorage.</Description>
       {status && <Success>Cliente cadastrado com sucesso</Success>}
       <Form onSubmit={setDataToStorage}>
         <DataForm>

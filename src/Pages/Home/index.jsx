@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom';
 import Button from '../../components/Button';
 import Loader from '../../components/Loader';
@@ -17,4 +17,4 @@ export default function Home() {
       <Loader />
     </Container>
   )
-}
+  }

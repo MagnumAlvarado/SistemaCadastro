@@ -10,10 +10,10 @@ const Routes = () => {
         <Route path='/' exact>
           <Home />
         </Route>
-        <Route path='/produtos'>
+        <Route path='/Produts'>
           <Products />
         </Route>
-        <Route path='/clientes'>
+        <Route path='/Clients'>
           <Clients />
         </Route>
       </Switch>
